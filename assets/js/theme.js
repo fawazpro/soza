@@ -385,9 +385,9 @@
         var $hslider = $(this);
         $hslider.owlCarousel({
           items: 1,
-          nav: $(this).data("nav"),
+          nav: $hslider.data("nav"),
           navText: ["<i class='uil-arrow-left'></i>", "<i class='uil-arrow-right'></i>"],
-          dots: $(this).data("dots"),
+          dots: $hslider.data("dots"),
           dotsEach: true,
           autoHeight: false,
           loop: false,
